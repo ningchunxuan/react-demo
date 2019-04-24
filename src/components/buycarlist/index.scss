@@ -1,0 +1,101 @@
+.buycarlist{
+    padding: 20px;
+    position:relative;
+    .addition{
+        height: 80px;
+        li{
+            float:left;
+        }
+        .seek{
+            margin-top:15px;
+            span{
+                font-weight:bold;
+                margin-right: 10px;
+            }
+            input{
+                height: 25px;
+                border:1px solid #ccc;
+                border-radius:5px;
+            }
+        }
+        .but{
+            .wipe{
+                width:50px;
+                height: 30px;
+                background: #fff;
+                color:#000;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                
+            }
+            .refer{
+                width:50px;
+                height: 30px;
+                background: #0178c8;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                color: #fff;
+                margin: 12px;
+            }
+        }
+    }
+    .headline{
+        font-weight:bold;
+        font-size:18px;
+        color: #000;
+    }
+    table{
+        thead{
+            tr{
+                height:50px;
+                border-top:2px solid #e6e6e6;
+                border-bottom:2px solid #e6e6e6;
+                th{
+                    text-align:center;
+                }
+            }
+        }
+        tbody{
+            tr{
+                height:50px;
+                border-top:1px solid #e6e6e6;
+                border-bottom:1px solid #e6e6e6;
+                td{
+                    text-align:center;
+                    width: 200px;
+                    img{
+                        width: 100px;
+                    }
+                    button{
+                        border: 1px solid #ccc;
+                        background: none;
+                        width: 50px;
+                        height: 30px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .paging{
+        margin-top:70px;
+        .page{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 40px;
+            position: absolute;
+            left: 0;
+            bottom: 20px;
+
+
+            li{
+                border: 1px solid #ccc;
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.5"
+  }
+}
